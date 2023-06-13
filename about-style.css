@@ -1,0 +1,111 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: url("img/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: #00ff4c;
+}
+
+.main-nav .nav-ul {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 25rem;
+  margin-top: 1rem;
+}
+
+.main-nav a:hover {
+  border-bottom: 3px solid #00ff4c;
+}
+
+.main-nav img {
+  width: 8rem;
+  margin-left: 30rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.main-nav .nav-ul li {
+  display: inline-block;
+  margin: 2rem;
+}
+
+.main-nav .nav-ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Prompt", sans-serif;
+  font-size: 1.8rem;
+}
+
+#footer .fa-brands {
+  padding: 2rem;
+  color: #fff;
+  transition: 1s;
+}
+
+#footer .fa-brands:hover {
+  transform: scale(1.5);
+}
+
+#footer {
+  display: flex;
+  background-color: rgb(28, 33, 33);
+  font-family: "Prompt", sans-serif;
+  font-size: small;
+  color: #fff;
+  margin-top: 4rem;
+  margin-bottom: 0;
+  height: 9rem;
+}
+
+#about-me .container .col-4 {
+  background: url("my-photo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
+
+#about-me h1 {
+  margin-top: 2rem;
+  margin-left: 75rem;
+  margin-bottom: 3rem;
+}
+
+#about-me .container {
+  margin-right: -4rem;
+}
+
+#about-me .container .col-6 {
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  font-size: 11px;
+}
+
+#what-i-know {
+  background-color: rgb(70, 67, 67);
+  color: #fff;
+  font-family: "Prompt", sans-serif;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#what-i-know .container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+#what-i-know .container .col-6 {
+  align-self: center;
+  width: 50%;
+}
